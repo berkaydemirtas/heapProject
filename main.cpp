@@ -37,7 +37,10 @@ int main(int argc, char* argv[]){
     //Seat Operations
     SeatOperations plane(N, M);
     for (int i = 0; i < Q; i++){
+
+
         plane.addNewPerson(queries[i].first, queries[i].second);
+
     }
     plane.printAllSeats(outFile);
 

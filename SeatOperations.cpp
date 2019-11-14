@@ -1,12 +1,13 @@
 /*
-Student Name:
-Student Number:
+Student Name:Berkay Demirtaş
+Student Number:2017400234
 Project Number: 3
-Compile Status: [SUCCESS/FAIL]
-Running Status: [SUCCESS/FAIL]
+Compile Status: [SUCCESS]
+Running Status: [SUCCESS]
 Notes: Anything you want to say about your code that will be helpful in the grading process.
 */
 #include "SeatOperations.h"
+
 
 using namespace std;
 

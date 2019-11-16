@@ -5,10 +5,12 @@
 
 using namespace std;
 
+
 void parseInput(ifstream& inFile,int &N,int &M,int &Q, vector < pair <int,string> > & queries);
 
 
 int main(int argc, char* argv[]){
+
 
     // Command line arguments are malformed
     if (argc != 3) {
@@ -45,6 +47,7 @@ int main(int argc, char* argv[]){
     plane.printAllSeats(outFile);
 
     outFile.close();
+
 	return 0;
 }
 

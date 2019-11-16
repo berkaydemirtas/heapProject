@@ -14,6 +14,9 @@ using namespace std;
 SeatOperations::SeatOperations(int N, int M){
 
 
+    this->N=N;
+    this->M=M;
+
 
     Person person;
     person.type3LastOperation=-1;
@@ -24,8 +27,7 @@ SeatOperations::SeatOperations(int N, int M){
     for(int i=0;i<M;i++){
         lines[1][i]=person;
     }
-    this->N=N;
-    this->M=M;
+
 }
 
 void SeatOperations::addNewPerson(int personType, const string& ticketInfo){
